@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "algolia-search-7f5b9",
+  "private_key_id": "4117b4e207922dfa8c760f2a60707872e4f3c9ea",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDAFK3LSdB2kYM5\n2Uq9FobTex8lYSbL51Abzf+1m6CQzJrsXVwJZ7sYpQhR2xdxy+DMrUxHxQbzW2i1\nwtf24ZgmN2n4dyjqKVPZmGynv1NMJygUxTVPLphwip7rQ08kSVae1pCEXUXAluRd\nzlgyy23llcZm5kWkfR6wrWOgMkNEM2JMNXffSkId6+u2DB5WmSggaJKp8tcMtpot\nDYb7QVzn4EGKeBl5wVAVqsfw2qORmr5UqkwzOb7o151hfSKRZ5qR4wCFysCx6S4o\n+t4EjewFpZEuXRYHOz7gAYpjOZckkq8vDggymyk7SXavrRmvyTES27a8Qg6mt2Bv\nyZ1QMFfBAgMBAAECggEAARW2adTXSrIBSqi/gj6uUzA9wh/Avax4O57mwK2wVSEF\n5V7IAxanJ9to4sCqBG7HrKSFYk0Ms2ZaXMYIq9CLbIEqA8j1TN1CFqRAZ8d2cgnK\n15/8+NJP4Y6RiETAhBLhsdLkZpa1md/I0u28vpU6ve3/9A5sFCLPsylYmNRagjxa\n4Z7N5wcPw+3W05RfT/9TXYYu4uR1e2WmtH2lQVkPrfcsJ7beHIjgcsF5CNtFYOej\njpy/hjVYr3IMArzcr6J7cdXfuQQdTTCVWqy9orTPntCrhxyAF6xvXPCkhuFOtGLp\nBe2FpftiSVNBM1LLHvUwOFp7ffmy+lyKy+iZGRIPAQKBgQDq17pD7S1SjYsFG84d\np8SbxCFk4rkJGWoUcahK9cxq+Y/O/T6DPINhN11E8veCDDd2YR7VHRmvGFWweqq8\nRMRL3IWjFMA4laskN6TuC4YN8AHToN1f6bmlvOMUoNyKL1GH/wslNGgXnqWpfO/M\niFRCQaOsU0FZT8ph2l3hrYQVbQKBgQDRYrdKeKOsNFc/oIOQeS20KiWC+4F58j0N\nGoHn4EIROIO64jBkq393bBkXg2S4dETl7ug8PBISZvauknu+TTaSi+BYTqnxcc8X\njQcm8ul8aBEm1WkF20wKKzr0nSEeai2MyV0ASvMRTkteaYWSB4T+iOT3R+b3JFpN\nlIxrirnbJQKBgQCDYzKI8lcbCqmusAG/Qa+T3kU4pkgTuS5KRdR8K8y0RO+aRMEG\nt4Jhj5IVE0I6dg9JociYPvGxrpGybM69ClQwhS4XMXLhtYrMdn1F2RilD5RWDHgO\nQztkaKs7TUxV22doCN75b7qVDGNu0cFv0w4hC4xAy0uSZju6R2ui6WsueQKBgQC6\nlVz/38D6EyosaLzUYSd5BJWowrX+FP6STqy0FALLlbDNOAInsytDH/C8Izn9pJ5A\nx0PraRwxic8IgUADtIqMzFh+WJrXrLL+KY3WB2BIm/Osxz9vGJwJ87v1fo+kqrks\nW8OkHyW6pipDV4TPPCQnLZXbRRdr49kUiOsYaeZ0gQKBgQDbYZGxoEHP7oup1Wh0\nF46JZ62urXuILCmy/PW0pQ+lDTINWyJxDn7P6/sIn0tH0FOv0mNnyuf2kUzoVA3w\nQcR1aoJmtrJSsymF56ulBNLRmG049VLlZ4rpFt8mlFH/0RBh9PXtYMF3dgdYccU7\na+dNIkvo0jeDZFj36UJWglor8A==\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-giysx@algolia-search-7f5b9.iam.gserviceaccount.com",
+  "client_id": "107634614061721439490",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-giysx%40algolia-search-7f5b9.iam.gserviceaccount.com"
+}
