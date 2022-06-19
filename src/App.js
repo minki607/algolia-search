@@ -1,25 +1,41 @@
-import logo from './logo.svg';
-import './App.css';
+import algoliasearch from "algoliasearch/lite";
+import {
+  InstantSearch,
+  SearchBox,
+  Hits,
+  RefinementList,
+  Highlight,
+  Pagination,
+  Configure,
+} from "react-instantsearch-hooks-web";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+const searchClient = algoliasearch(
+  process.env.REACT_APP_ALGOLIA_ID,
+  process.env.REACT_APP_ALGOLIA_SEARCH_KEY
+);
+
+const App = () => {
+  const Post = ({ hit }) => {
+    return (
+      <article>
+        <h1>
+          <Highlight attribute="title" hit={hit} />
+        </h1>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          <Highlight attribute="content" hit={hit} />
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      </article>
+    );
+  };
+
+  return (
+    <InstantSearch searchClient={searchClient} indexName="post">
+      <SearchBox />
+      <RefinementList attribute="UserId" />
+      <Hits hitComponent={Post} />
+      <Configure hitsPerPage={10} />
+    </InstantSearch>
   );
-}
+};
 
 export default App;
